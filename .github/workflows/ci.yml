@@ -1,8 +1,11 @@
 name: Flutter CI
 on:
+  push:
+    branches:
+      - master
   pull_request:
     branches: 
-      - main
+      - master
 
 jobs:
   test:
